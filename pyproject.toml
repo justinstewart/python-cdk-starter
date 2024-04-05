@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "base-cdk-python"
+version = "0.1.0"
+description = ""
+authors = ["Justin Stewart <justin@justinstewart.dev>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aws-cdk-lib = "^2.135.0"
+
+
+[tool.poetry.group.dev.dependencies]
+yawsso = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
