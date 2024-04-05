@@ -1,5 +1,5 @@
 # Python CDK Starter Kit
-This is a base project for developing Python-based CDK applications. It's inspired by:
+This is a starter project for developing Python-based CDK applications. It's inspired by:
 
 - [AWS CDK Best Practices](https://docs.aws.amazon.com/cdk/latest/guide/best-practices.html)
 - [AWS Cross Account Deployment](https://aws.amazon.com/blogs/mt/cross-account-deployments-aws-control-tower-environment/)
