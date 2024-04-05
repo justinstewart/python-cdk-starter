@@ -88,7 +88,6 @@ class CodePipelineStack(cdk.Stack):
                 commands=[
                     "npm install -g aws-cdk@2.135",
                     "curl -sSL https://install.python-poetry.org | python3 -",
-                    "cd projects/base-cdk-python",
                     "/root/.local/bin/poetry install",
                     "/root/.local/bin/poetry run cdk synth",
                 ],

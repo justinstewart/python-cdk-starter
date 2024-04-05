@@ -19,7 +19,7 @@ def main():
         operations_environment=OPERATIONS_US_EAST_2,
         staging_environment=STAGING_US_EAST_2,
         production_environment=PRODUCTION_US_EAST_2,
-        repo="justinstewart/breakable-toys",
+        repo="justinstewart/python-cdk-starter",
         branch="main",
     )
     app.synth()
