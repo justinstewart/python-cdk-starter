@@ -10,4 +10,4 @@ The service it deploys is a simple [Flask](https://flask.palletsprojects.com/en/
 
 To run this project locally and contribute to it, see the [CONTRIBUTING](CONTRIBUTING.md) doc.
 
-To deploy this project to AWS, see the [INSTALLATION](INSTALLATION.md) doc.
+To deploy this project to AWS, see the [INSTALL](INSTALL.md) doc.
