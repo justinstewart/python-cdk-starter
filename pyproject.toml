@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "base-cdk-python"
+name = "python-cdk-starter"
 version = "0.1.0"
 description = ""
 authors = ["Justin Stewart <justin@justinstewart.dev>"]

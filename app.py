@@ -1,6 +1,7 @@
 import aws_cdk as cdk
 
 from cdk.config import (
+    REPO,
     CODESTAR_CONNECTION_ARN,
     OPERATIONS_US_EAST_2,
     STAGING_US_EAST_2,
@@ -19,7 +20,7 @@ def main():
         operations_environment=OPERATIONS_US_EAST_2,
         staging_environment=STAGING_US_EAST_2,
         production_environment=PRODUCTION_US_EAST_2,
-        repo="justinstewart/python-cdk-starter",
+        repo=REPO,
         branch="main",
     )
     app.synth()

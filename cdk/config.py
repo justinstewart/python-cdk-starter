@@ -7,6 +7,8 @@ import aws_cdk as cdk
 class Regions(Enum):
     US_EAST_2 = "us-east-2"
 
+# Source
+REPO = os.getenv("REPO")
 
 # CodeStar Connections
 CODESTAR_CONNECTION_ARN = os.getenv("AWS_CODESTAR_CONNECTION_ARN")
