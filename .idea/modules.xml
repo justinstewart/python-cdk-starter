@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/base-cdk-python.iml" filepath="$PROJECT_DIR$/.idea/base-cdk-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-cdk-starter.iml" filepath="$PROJECT_DIR$/.idea/python-cdk-starter.iml" />
     </modules>
   </component>
 </project>

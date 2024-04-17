@@ -1,6 +1,9 @@
 -include .env
 export $(shell sed 's/=.*//' .env)
 
+test:
+	poetry run pytest
+
 bootstrap-dev:
 	npx cdk bootstrap --profile ${AWS_PROFILE_DEV} "aws://${AWS_ACCOUNT_ID_DEV}/${AWS_PRIMARY_REGION_DEV}"
 
